@@ -1,112 +1,239 @@
-<!DOCTYPE html>
-<html lang="id">
-	<head>
-		<meta charset="utf-8">
-		<title>Rei Fuyuki - Site Routing</title>
-		<meta name="description" content="Site Routing | Penghubung antar web">
-		<link rel="preload" as="image" href="assets/header_layer-0.webp" type="image/webp">
-		<link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset200802.css">
-		<link rel="stylesheet" href="style/style.css">
-		<script src="https://static.webring.gg/www/scripts/widget.js"></script>
-		<link rel="stylesheet" href="https://static.webring.gg/www/styles/widget/mini.css">
-	</head>
-	<body>
-		<div class="site">
-			<header class="top">
-				<picture>
-					<source srcset="assets/header_layer-0.webp" type="image/webp">
-					<img class="top__photo" src="assets/header_layer-0.png" alt="Ilustrasi anime seorang gadis berambut panjang duduk di lantai sambil memegang ponsel" width="2480" height="1153" fetchpriority="high" decoding="async">
-				</picture>
-				<img class="top__logo" src="assets/subarashiki_hibi.png" alt="Subarashiki Hibi" width="1263" height="402">
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>ZaN ITo</title>
+        <meta name="description" content="Site Routing | A bridge between websites" />
+        <link rel="preload" as="image" href="assets/header_layer-0.webp" type="image/webp" />
+        <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset200802.css" />
+        <link rel="stylesheet" href="style/style.css" />
+        <script src="https://static.webring.gg/www/scripts/widget.js"></script>
+        <link rel="stylesheet" href="https://static.webring.gg/www/styles/widget/mini.css" />
+    </head>
+    <body>
+        <audio autoplay loop preload="auto">
+            <source src="assets/stay.mp3" />
+        </audio>
+        <div class="site">
+            <header class="top">
+                <picture>
+                    <source srcset="assets/header_layer-0.webp" type="image/webp" />
+                    <img
+                        class="top__photo"
+                        src="assets/header_layer-0.png"
+                        alt="Anime illustration of a long-haired girl sitting on the floor while holding a phone"
+                        width="2480"
+                        height="1153"
+                        fetchpriority="high"
+                        decoding="async"
+                    />
+                </picture>
+                <img
+                    class="top__logo"
+                    src="assets/subarashiki_hibi.png"
+                    alt="Subarashiki Hibi"
+                    width="1263"
+                    height="402"
+                />
 
-				<div class="strip">
-					<img class="strip__img" src="assets/header-left-top_layer-3.png" alt="" width="1333" height="163" aria-hidden="true">
-				</div>
-				<h1 class="brand">
-				</h1>
-			</header>
+                <div class="strip">
+                    <img
+                        class="strip__img"
+                        src="assets/header-left-top_layer-3.png"
+                        alt=""
+                        width="1333"
+                        height="163"
+                        aria-hidden="true"
+                    />
+                </div>
+                <h1 class="brand"></h1>
+            </header>
 
-			<div class="columns">
-				<aside class="sidebar">
-					<div class="sidebar__inner">
-						<section class="section" id="start">
-							<h2 class="section__title">
-								<img src="assets/section_start.png" alt="start" width="622" height="148">
-							</h2>
-							<p class="lead">Halo! Ini rumah keduaku—tempat aku menyimpan cerita, catatan kecil, dan semua hal yang membuat hariku lebih pelan.</p>
-							<p>Kalau ini kunjungan pertamamu, mulai saja dari sini. Nggak ada aturan khusus: baca sebisanya, tinggalkan jejak kalau mau, dan jangan lupa istirahat.</p>
-						</section>
+            <div class="columns">
+                <aside class="sidebar">
+                    <div class="sidebar__inner">
+                        <section class="section" id="start">
+                            <h2 class="section__title">
+                                <img src="assets/section_start.png" alt="start" width="622" height="148" />
+                            </h2>
+                            <p class="lead">
+                                Hello! This is my second home, where I keep stories, little notes, and all the things
+                                that help me slow down.
+                            </p>
+                            <p>
+                                If this is your first visit, you can start here. There are no rules: read as much as you
+                                like, leave a note if you want, and don't forget to rest.
+                            </p>
+                        </section>
 
-						<nav class="menu" aria-label="Navigasi utama">
-							<a class="menu__btn" href="#social"><span>Social</span></a>
-							<a class="menu__btn" href="#connect"><span>Connect</span></a>
-							<a class="menu__btn" href="#webrings"><span>Webrings</span></a>
-						</nav>
+                        <nav class="menu" aria-label="Main navigation">
+                            <a class="menu__btn" href="#social"><span>Social</span></a>
+                            <a class="menu__btn" href="#connect"><span>Connect</span></a>
+                            <a class="menu__btn" href="#webrings"><span>Webrings</span></a>
+                        </nav>
 
-						<section class="section" id="social">
-							<h2 class="section__title">
-								<img src="assets/section_social.png" alt="social" width="622" height="161" loading="lazy" decoding="async">
-							</h2>
-							<p>Di tempat lain aku juga nongkrong. Kebanyakan isinya foto langit, lagu yang sedang diputar, dan hal-hal receh.</p>
-							<ul class="links links--grid">
-								<li><span>instagram</span><a href="https://instagram.com/reifuyuki_jp">@reifuyuki_jp</a></li>
-								<li><span>github</span><a href="https://github.com/reifuyuki">reifuyuki</a></li>
-							</ul>
-						</section>
+                        <section class="section" id="social">
+                            <h2 class="section__title">
+                                <img
+                                    src="assets/section_social.png"
+                                    alt="social"
+                                    width="622"
+                                    height="161"
+                                    loading="lazy"
+                                    decoding="async"
+                                />
+                            </h2>
+                            <p>
+                                I hang out in other places too. You'll mostly find sky photos, whatever song I'm
+                                listening to, and little bits of everyday life.
+                            </p>
+                            <ul class="links links--grid">
+                                <li>
+                                    <span>instagram</span><a href="https://instagram.com/reifuyuki_jp">@reifuyuki_jp</a>
+                                </li>
+                                <li><span>github</span><a href="https://github.com/reifuyuki">reifuyuki</a></li>
+                            </ul>
+                        </section>
 
-						<section class="section" id="connect">
-							<h2 class="section__title">
-								<img src="assets/section_connect.png" alt="connect" width="622" height="152" loading="lazy" decoding="async">
-							</h2>
-							<p>Mau ngobrol, berkolaborasi, atau sekadar bilang hai? Pintunya selalu terbuka. Aku paling suka surat yang datang pelan-pelan.</p>
-							<ul class="links">
-								<li><span>surel</span><a href="mailto:jirankun@proton.me">jirankun@proton.me</a></li>
-								<li><span>buku tamu</span><a href="http://users3.smartgb.com/g/g.php?a=s&i=g36-42573-1c">buka buku tamu</a></li>
-							</ul>
-						</section>
+                        <section class="section" id="connect">
+                            <h2 class="section__title">
+                                <img
+                                    src="assets/section_connect.png"
+                                    alt="connect"
+                                    width="622"
+                                    height="152"
+                                    loading="lazy"
+                                    decoding="async"
+                                />
+                            </h2>
+                            <p>
+                                Want to chat, collaborate, or just say hello? My door is always open. I especially love
+                                a letter that arrives in its own time.
+                            </p>
+                            <ul class="links">
+                                <li><span>email</span><a href="mailto:jirankun@proton.me">jirankun@proton.me</a></li>
+                                <li>
+                                    <span>guestbook</span
+                                    ><a href="http://users3.smartgb.com/g/g.php?a=s&i=g36-42573-1c">open guestbook</a>
+                                </li>
+                            </ul>
+                        </section>
 
-						<section class="section" id="webrings">
-							<h2 class="section__title">
-								<img src="assets/section_webrings.png" alt="webrings" width="622" height="164" loading="lazy" decoding="async">
-							</h2>
-							<p>Aku ikut beberapa webring kecil yang isinya situs-situs lucu, jurnal harian, dan pojok internet yang masih hangat.</p>
-							<div class="webring-grid">
-								<a href="https://piggie.party/" target="_blank" rel="noopener noreferrer" data-tooltip="Let's have a piggie party!"><img src="https://piggie.party/img/88x31.png" alt="Piggie Party" width="88" height="31" loading="eager" decoding="async"></a>
-								<a target="_blank" href="https://nanacore.net/ " rel="noopener noreferrer" data-tooltip="Nanacore.net"><img src="https://nanacore.net/imgs/buttons/nanacore.gif" alt="nanacore"></a>
-								<a href="https://frutigeraeroarchive.org/" target="_blank" rel="noopener noreferrer" data-tooltip="Enjoy 2000s wallpapers, music, games, and much more!
-"><img src="https://frutigeraeroarchive.org/images/mascot/avatar.png" width="120" alt="The Frutiger Aero Archive"></a>
-								<a href="https://xyllria.neocities.org" target="_blank"><img title="Xyl, of Xyllrium" src="https://xyllria.neocities.org/buttons/xylcube.gif" alt="Xyl" data-tooltip="xyllria.neocities.org"></a>
-							</div>
-						</section>
-						<div class="webri-anime">
-							<iframe width="100" height="100" style="border:none" src="https://nvlk.dimden.dev/" name="neolink"></iframe>
-							<a class="webri-anime__title" href="https://moonlightpromise.neocities.org/webring.html">Anime Webring</a>
-							<a class="webring-badge" href="https://webri.ng/webring/animewebring/" aria-label="Kunjungi Anime Webring">
-								<img src="https://moonlightpromise.neocities.org/animewebring.gif" alt="Anime Webring badge" width="88" height="31" loading="eager" decoding="async">
-							</a>
-							<nav class="webri-anime__nav" aria-label="Navigasi Anime Webring">
-								<a href="https://webri.ng/webring/animewebring/previous?via=https%3A%2F%2Freifuyuki.github.io">Prev</a>
-								<a href="https://webri.ng/webring/animewebring/random?via=https%3A%2F%2Freifuyuki.github.io">Random</a>
-								<a href="https://webri.ng/webring/animewebring/next?via=https%3A%2F%2Freifuyuki.github.io">Next</a>
-							</nav>
-						</div>
-						<div data-webringgg data-user="rxgKR247NICtW" data-verification="xDuVibqoerC7"></div>
-						<div class="sidebar__foot">
-							<p>reifuyuki.github.io</p>
-							<p>dibuat dengan ♡ &amp; Kopi</p>
-							<p>© 2026 zhyllanfyllah | Fuyuki Rei</p>
-						</div>
-					</div>
-				</aside>
+                        <section class="section" id="webrings">
+                            <h2 class="section__title">
+                                <img
+                                    src="assets/section_webrings.png"
+                                    alt="webrings"
+                                    width="622"
+                                    height="164"
+                                    loading="lazy"
+                                    decoding="async"
+                                />
+                            </h2>
+                            <p>
+                                I'm part of a few small webrings filled with lovely sites, personal journals, and cozy
+                                corners of the internet.
+                            </p>
+                            <div class="webring-grid">
+                                <a
+                                    href="https://piggie.party/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    data-tooltip="Let's have a piggie party!"
+                                    ><img
+                                        src="https://piggie.party/img/88x31.png"
+                                        alt="Piggie Party"
+                                        width="88"
+                                        height="31"
+                                        loading="eager"
+                                        decoding="async"
+                                /></a>
+                                <a
+                                    target="_blank"
+                                    href="https://nanacore.net/ "
+                                    rel="noopener noreferrer"
+                                    data-tooltip="Nanacore.net"
+                                    ><img src="https://nanacore.net/imgs/buttons/nanacore.gif" alt="nanacore"
+                                /></a>
+                                <a
+                                    href="https://frutigeraeroarchive.org/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    data-tooltip="Enjoy 2000s wallpapers, music, games, and much more!
+"
+                                    ><img
+                                        src="https://frutigeraeroarchive.org/images/mascot/avatar.png"
+                                        width="120"
+                                        alt="The Frutiger Aero Archive"
+                                /></a>
+                            </div>
+                        </section>
+                        <div class="webri-anime">
+                            <iframe
+                                width="100"
+                                height="100"
+                                style="border: none"
+                                src="https://nvlk.dimden.dev/"
+                                name="neolink"
+                            ></iframe>
+                            <a class="webri-anime__title" href="https://moonlightpromise.neocities.org/webring.html"
+                                >Anime Webring</a
+                            >
+                            <a
+                                class="webring-badge"
+                                href="https://webri.ng/webring/animewebring/"
+                                aria-label="Visit the Anime Webring"
+                            >
+                                <img
+                                    src="https://moonlightpromise.neocities.org/animewebring.gif"
+                                    alt="Anime Webring badge"
+                                    width="88"
+                                    height="31"
+                                    loading="eager"
+                                    decoding="async"
+                                />
+                            </a>
+                            <nav class="webri-anime__nav" aria-label="Anime Webring navigation">
+                                <a
+                                    href="https://webri.ng/webring/animewebring/previous?via=https%3A%2F%2Freifuyuki.github.io"
+                                    >Prev</a
+                                >
+                                <a
+                                    href="https://webri.ng/webring/animewebring/random?via=https%3A%2F%2Freifuyuki.github.io"
+                                    >Random</a
+                                >
+                                <a
+                                    href="https://webri.ng/webring/animewebring/next?via=https%3A%2F%2Freifuyuki.github.io"
+                                    >Next</a
+                                >
+                            </nav>
+                        </div>
+                        <div data-webringgg data-user="rxgKR247NICtW" data-verification="xDuVibqoerC7"></div>
+                        <div class="sidebar__foot">
+                            <p style="color: black">
+                                <b>
+                                    Audio and Image is copyright form subarashiki hibi,
+                                    <a href="copyright/">See copyright content</a></b
+                                >
+                            </p>
+                            <p>ts-u-ii.is-a.dev</p>
+                            <p>web © 2026 ZaN ITo</p>
+                        </div>
+                    </div>
+                </aside>
 
-				<main class="paper" aria-label="Artikel">
-					<section class="coming-soon" aria-labelledby="coming-soon-title">
-						<h2 id="coming-soon-title">Coming soon</h2>
-					</section>
-				</main>
-			</div>
-		</div>
-		<div id="custom-tooltip" role="tooltip" aria-hidden="true"></div>
-		<script src="script/script.js"></script>
-	</body>
+                <main class="paper" aria-label="Main content">
+                    <section class="coming-soon" aria-labelledby="coming-soon-title">
+                        <h2 id="coming-soon-title">Coming soon</h2>
+                    </section>
+                    <img
+                        src="https://count.getloli.com/@ts-u-ii?theme=booru-lewd&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto"
+                        class="count-loli"
+                    />
+                </main>
+            </div>
+        </div>
+        <div id="custom-tooltip" role="tooltip" aria-hidden="true"></div>
+        <script src="script/script.js"></script>
+    </body>
 </html>
